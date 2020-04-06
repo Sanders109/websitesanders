@@ -1,0 +1,86 @@
+/* Applies to everything unless overwritten */
+
+* {
+	margin: 0;
+}
+
+body {
+	background: rgba(255, 0, 0, .25);
+}
+
+header {
+	background: rgba(0, 0, 0, .25);
+	height: 300px;
+	text-align: center;
+}
+
+section {
+	background: rgba(0, 0, 0, .25);
+	margin-bottom: 1000px;
+	height: 50px;
+	width: 100%;
+}
+
+canvas {
+	margin: auto;
+	touch-action: none;
+}
+
+footer {
+	background: rgba(0, 0, 0, .25);
+	height: 25px;
+}
+
+.logo {
+	display: inline-block;
+	width: 768px;
+	height: 256px;
+	padding: 22px;
+}
+
+.nav {
+	height: 40px;
+	text-align: center;
+}
+
+.buttons {
+	display: inline;
+}
+
+.nav a {
+	padding: 11px 0;
+	text-align: center;
+	margin-left: 10%;
+	display: inline-block;
+	width: 66px;
+}
+
+.nav a.home {
+	margin-left: 0;
+}
+
+.nav a:hover {
+	color: rgba(61, 60, 60, 0.568);
+}
+
+/* Applies to any device with screen width > 768px */
+
+@media screen and (min-width: 768px) {
+	body {
+		background: rgba(0, 255, 0, .25);
+	}
+}
+
+/* Applies to any device with screen width > 1200px */
+
+@media screen and (min-width: 1200px) {
+	body {
+		background: rgba(87, 11, 1, 0.685);
+	}
+	section {
+		float: right;
+	}
+	footer {
+		clear: both;
+	}
+}

@@ -1,0 +1,128 @@
+/* Applies to everything unless overwritten */
+
+* {
+    margin: 0;
+    font-family: JerseyM54;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+footer {
+    height: 50px;
+    background-color: rgb(192, 192, 192);
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+content {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+}
+
+.section-container {
+    background-color: white;
+    /*scroll-snap-type: y mandatory;*/
+}
+
+#window {
+    background-position: center top;
+    position: relative;
+    /*scroll-snap-type: y mandatory;*/
+}
+
+#logo {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    top: 40%;
+    position: absolute;
+}
+
+#logo_text {
+    margin-left: 35%;
+    margin-right: 35%;
+    top: 50%;
+    position: absolute;
+}
+
+#section-1 {
+    height: 256px;
+    background: rgb(0, 0, 0);
+    top: 0;
+}
+
+#section-1-content {
+    position: sticky;
+    top: 0;
+    background-image: url(../images/uni.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#video-container {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#photo {
+    position: absolute;
+}
+
+#photo img {
+    height: 256px;
+    width: 256px;
+}
+
+#text-container {
+    top: 40%;
+    position: relative;
+}
+
+#education {
+    width: 25%;
+    margin-left: 30%;
+    float: left;
+}
+
+#date-1 {
+    width: 5%;
+    float: left;
+}
+
+#date-2 {
+    width: 5%;
+}
+
+#anchor-1 {
+    top: 0;
+}
+
+@font-face {
+    font-family: JerseyM54;
+    src: url('../fonts/JerseyM54.ttf');
+}
+
+
+/* Applies to any device with screen width > 768px */
+
+@media screen and (min-width: 768px) {}
+
+
+/* Applies to any device with screen width > 1200px */
+
+@media screen and (min-width: 1200px) {}
